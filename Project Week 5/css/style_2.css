@@ -1,0 +1,70 @@
+body {
+    height: 100%;
+    display: flex;
+    margin: 0;
+}
+
+#first-column {
+    width: 25%;
+    float: left;
+    background-color: blue;
+    margin-right: 10px;
+}
+
+/* #second-column::after{
+    display: block;
+    zoom: 1;
+    height: 0;
+    background-color: blue;
+    clear: both;
+    content: ".";
+    width: 48%;
+} */
+
+h1 {
+    text-align: center;
+    height: 100%;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+#second-column {
+    width: 71%;
+    margin-left: 10px;
+    float:right;
+}
+
+.v {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+.c {
+    margin: 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blo .c {
+    display: block;
+}
+
+.v {
+    margin-right: 20px;
+}
+
+.c {
+    font-weight: bold;
+    margin-right: 10px;
+}
